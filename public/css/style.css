@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    max-height: 100vh;
+}
+/* NAV */
+nav{
+    background-color: #464646;
+    width: 10%;
+    height : 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav section{
+    height: 75vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+}
+nav section a{
+    text-align: center;
+    color : #9B8F86;
+    text-decoration: none;
+}
+nav section a:hover{
+    color: #A87854;
+    cursor: pointer;
+}
+/* Fin NAV */
+/* Content */
+main img{
+    width: 150px;
+}

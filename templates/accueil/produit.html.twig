@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+			<div class="produit">
+				<h3>
+					<a href="{{path('produit', { id: produit.id})}}">{{ produit.nom }}</a>
+				</h3>
+				<img src="{{ asset('img/' ~ produit.image) }}">
+				<p>{{ produit.prix }}€</p>
+			</div>
+{% endblock %}
